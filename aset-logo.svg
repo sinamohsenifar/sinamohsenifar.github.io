@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" role="img" aria-labelledby="aset-title aset-desc">
+  <title id="aset-title">Aset</title>
+  <desc id="aset-desc">Aset, the company operating system</desc>
+  <defs>
+    <linearGradient id="aset-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8B5CF6"/>
+      <stop offset="0.52" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#aset-gradient)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 92 58 26 93 92M40 63h37"/>
+  </g>
+  <g fill="url(#aset-gradient)">
+    <circle cx="24" cy="92" r="7"/><circle cx="58" cy="26" r="7"/><circle cx="93" cy="92" r="7"/><circle cx="40" cy="63" r="5"/><circle cx="77" cy="63" r="5"/>
+  </g>
+  <text x="128" y="72" fill="#151A1B" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="62" font-weight="720" letter-spacing="-2">Aset</text>
+  <rect x="130" y="83" width="172" height="4" rx="2" fill="url(#aset-gradient)"/>
+  <text x="130" y="108" fill="#68736F" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600" letter-spacing=".2">The Company Operating System</text>
+</svg>

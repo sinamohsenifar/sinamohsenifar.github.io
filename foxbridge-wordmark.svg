@@ -1,0 +1,30 @@
+<svg viewBox="0 0 680 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="FoxBridge">
+  <defs>
+    <linearGradient id="fox" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFB13A"/>
+      <stop offset="0.5" stop-color="#FF7A18"/>
+      <stop offset="1" stop-color="#F03B1E"/>
+    </linearGradient>
+  </defs>
+  <!-- mark -->
+  <g transform="translate(24,26)">
+    <rect width="128" height="128" rx="28" fill="url(#fox)"/>
+    <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="16" y1="90" x2="112" y2="90" stroke-width="7"/>
+      <line x1="46" y1="90" x2="46" y2="30" stroke-width="7"/>
+      <line x1="82" y1="90" x2="82" y2="30" stroke-width="7"/>
+      <path d="M16 80 Q30 46 46 32 Q64 60 82 32 Q98 46 112 80" stroke-width="5"/>
+      <g stroke-width="3" opacity="0.9">
+        <line x1="28" y1="60" x2="28" y2="90"/><line x1="37" y1="46" x2="37" y2="90"/>
+        <line x1="64" y1="46" x2="64" y2="90"/><line x1="91" y1="46" x2="91" y2="90"/>
+        <line x1="100" y1="60" x2="100" y2="90"/>
+      </g>
+    </g>
+    <g fill="#fff"><path d="M40 32 l6 -12 l6 12 z"/><path d="M76 32 l6 -12 l6 12 z"/></g>
+  </g>
+  <!-- wordmark -->
+  <text x="184" y="118" font-family="Helvetica, Arial, sans-serif" font-size="76" font-weight="700" letter-spacing="-1">
+    <tspan fill="#FF7A18">Fox</tspan><tspan fill="#2B2D31">Bridge</tspan>
+  </text>
+  <text x="186" y="150" font-family="Helvetica, Arial, sans-serif" font-size="21" font-weight="500" fill="#8A8D93" letter-spacing="0.5">drive your real Firefox from an AI assistant</text>
+</svg>
